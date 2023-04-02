@@ -2,12 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Main",
-            "type": "shell",
-            "command": "g++ -g main.cpp -o main.out",
-            "group": "build"
-        },
-        {
             "type": "cppbuild",
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
